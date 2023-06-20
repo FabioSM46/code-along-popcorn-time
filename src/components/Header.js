@@ -1,3 +1,8 @@
+import "./Header.css";
 export const Header = () => {
-  <h1>this is the header</h1>;
+  return (
+    <div className="Header">
+      <h1>this is the header</h1>
+    </div>
+  );
 };
