@@ -1,3 +1,14 @@
 .App {
   text-align: center;
 }
+
+form {
+  max-width: fit-content;
+  display: flex;
+  flex-direction: column;
+  margin: 1rem auto;
+  padding: 1rem;
+}
+form > label {
+ margin: 5px;
+}
